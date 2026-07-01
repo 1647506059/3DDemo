@@ -182,16 +182,16 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -10,
-      "y": 10,
-      "z": 10
+      "x": 0,
+      "y": 1.5,
+      "z": -8
     },
     "_lrot": {
       "__type__": "cc.Quat",
-      "x": -0.27781593346944056,
-      "y": -0.36497167621709875,
-      "z": -0.11507512748638377,
-      "w": 0.8811195706053617
+      "x": 0.08715574274765775,
+      "y": 0,
+      "z": 0,
+      "w": 0.9961946980917457
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -203,8 +203,8 @@
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": -35,
-      "y": -45,
+      "x": 10,
+      "y": 0,
       "z": 0
     },
     "_id": "a7cg1LITBIkKOh568USMND"
@@ -314,9 +314,7 @@
       "__id__": 9
     },
     "grounds": [],
-    "player": {
-      "__id__": 12
-    },
+    "levelIndex": 1,
     "showColliderGizmo": true,
     "_id": "c9xIf7FBhFya3d7LfvSfH1"
   },
@@ -429,7 +427,7 @@
       "__id__": 1
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 13

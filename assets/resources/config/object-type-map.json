@@ -1,0 +1,82 @@
+{
+  "1": {
+    "mesh": "can_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "2": {
+    "mesh": "can_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "3": {
+    "mesh": "can_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "11": {
+    "mesh": "box_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "12": {
+    "mesh": "box_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "13": {
+    "mesh": "box_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "14": {
+    "mesh": "box_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "15": {
+    "mesh": "box_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "16": {
+    "mesh": "box_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "21": {
+    "mesh": "stone_1x1",
+    "collider": "box",
+    "mass": 2
+  },
+  "22": {
+    "mesh": "stone_1x1",
+    "collider": "box",
+    "mass": 2
+  },
+  "31": {
+    "mesh": "jar_1x1",
+    "collider": "box",
+    "mass": 1
+  },
+  "41": {
+    "mesh": "log_1x3",
+    "collider": "box",
+    "mass": 2.5
+  },
+  "42": {
+    "mesh": "log_1x1",
+    "collider": "box",
+    "mass": 1.5
+  },
+  "61": {
+    "mesh": "ice_1x1",
+    "collider": "box",
+    "mass": 1.2
+  },
+  "62": {
+    "mesh": "ice_1x1",
+    "collider": "box",
+    "mass": 1.2
+  }
+}
