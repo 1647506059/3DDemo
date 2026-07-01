@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "11aa6061-ea56-4144-aa6e-57b703acc0e7",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "11aa6061-ea56-4144-aa6e-57b703acc0e7@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 200
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "11aa6061-ea56-4144-aa6e-57b703acc0e7@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fa0c3": {
+      "importer": "gltf-scene",
+      "uuid": "11aa6061-ea56-4144-aa6e-57b703acc0e7@fa0c3",
+      "displayName": "",
+      "id": "fa0c3",
+      "name": "jar_1x2_COL.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "11aa6061-ea56-4144-aa6e-57b703acc0e7@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "11aa6061-ea56-4144-aa6e-57b703acc0e7@ea6e2"
+      ],
+      "scenes": [
+        "11aa6061-ea56-4144-aa6e-57b703acc0e7@fa0c3"
+      ]
+    }
+  }
+}

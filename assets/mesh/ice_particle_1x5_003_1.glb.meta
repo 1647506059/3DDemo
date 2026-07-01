@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "5c661d58-2957-463a-93ff-682d67469f15",
+  "files": [],
+  "subMetas": {
+    "68151": {
+      "importer": "gltf-scene",
+      "uuid": "5c661d58-2957-463a-93ff-682d67469f15@68151",
+      "displayName": "",
+      "id": "68151",
+      "name": "ice_particle_1x5_003_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "5c661d58-2957-463a-93ff-682d67469f15@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 116
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "5c661d58-2957-463a-93ff-682d67469f15@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5c661d58-2957-463a-93ff-682d67469f15@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5c661d58-2957-463a-93ff-682d67469f15@ea6e2"
+      ],
+      "scenes": [
+        "5c661d58-2957-463a-93ff-682d67469f15@68151"
+      ]
+    }
+  }
+}

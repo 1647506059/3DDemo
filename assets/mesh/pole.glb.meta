@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "15610f7b-1908-42f3-a478-40fb49561350",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "15610f7b-1908-42f3-a478-40fb49561350@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "15610f7b-1908-42f3-a478-40fb49561350@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e0cb": {
+      "importer": "gltf-scene",
+      "uuid": "15610f7b-1908-42f3-a478-40fb49561350@5e0cb",
+      "displayName": "",
+      "id": "5e0cb",
+      "name": "pole.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "15610f7b-1908-42f3-a478-40fb49561350@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "15610f7b-1908-42f3-a478-40fb49561350@ea6e2"
+      ],
+      "scenes": [
+        "15610f7b-1908-42f3-a478-40fb49561350@5e0cb"
+      ]
+    }
+  }
+}

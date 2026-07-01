@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "ef5d9ed0-f48f-4ae4-9906-0a91f46fc067",
+  "files": [],
+  "subMetas": {
+    "21822": {
+      "importer": "gltf-scene",
+      "uuid": "ef5d9ed0-f48f-4ae4-9906-0a91f46fc067@21822",
+      "displayName": "",
+      "id": "21822",
+      "name": "square_1x1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "ef5d9ed0-f48f-4ae4-9906-0a91f46fc067@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 402
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "ef5d9ed0-f48f-4ae4-9906-0a91f46fc067@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ef5d9ed0-f48f-4ae4-9906-0a91f46fc067@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ef5d9ed0-f48f-4ae4-9906-0a91f46fc067@ea6e2"
+      ],
+      "scenes": [
+        "ef5d9ed0-f48f-4ae4-9906-0a91f46fc067@21822"
+      ]
+    }
+  }
+}

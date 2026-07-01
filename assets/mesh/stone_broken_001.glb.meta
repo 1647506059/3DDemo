@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "65eb9b25-e1be-4fa7-88eb-448ab287516b",
+  "files": [],
+  "subMetas": {
+    "26215": {
+      "importer": "gltf-scene",
+      "uuid": "65eb9b25-e1be-4fa7-88eb-448ab287516b@26215",
+      "displayName": "",
+      "id": "26215",
+      "name": "stone_broken_001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "65eb9b25-e1be-4fa7-88eb-448ab287516b@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 73
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "65eb9b25-e1be-4fa7-88eb-448ab287516b@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "65eb9b25-e1be-4fa7-88eb-448ab287516b@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "65eb9b25-e1be-4fa7-88eb-448ab287516b@ea6e2"
+      ],
+      "scenes": [
+        "65eb9b25-e1be-4fa7-88eb-448ab287516b@26215"
+      ]
+    }
+  }
+}

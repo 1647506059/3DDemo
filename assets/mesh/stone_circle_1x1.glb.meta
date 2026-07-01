@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "7db67be2-468e-4d1f-82d9-0937611d5c3b",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "7db67be2-468e-4d1f-82d9-0937611d5c3b@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 144
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "7db67be2-468e-4d1f-82d9-0937611d5c3b@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "987c4": {
+      "importer": "gltf-scene",
+      "uuid": "7db67be2-468e-4d1f-82d9-0937611d5c3b@987c4",
+      "displayName": "",
+      "id": "987c4",
+      "name": "stone_circle_1x1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7db67be2-468e-4d1f-82d9-0937611d5c3b@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "7db67be2-468e-4d1f-82d9-0937611d5c3b@ea6e2"
+      ],
+      "scenes": [
+        "7db67be2-468e-4d1f-82d9-0937611d5c3b@987c4"
+      ]
+    }
+  }
+}

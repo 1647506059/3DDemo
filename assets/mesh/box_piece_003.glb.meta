@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d316233e-20e7-44df-bd92-5c921c72cbca",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "d316233e-20e7-44df-bd92-5c921c72cbca@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 108
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "d316233e-20e7-44df-bd92-5c921c72cbca@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "356e6": {
+      "importer": "gltf-scene",
+      "uuid": "d316233e-20e7-44df-bd92-5c921c72cbca@356e6",
+      "displayName": "",
+      "id": "356e6",
+      "name": "box_piece_003.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d316233e-20e7-44df-bd92-5c921c72cbca@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d316233e-20e7-44df-bd92-5c921c72cbca@ea6e2"
+      ],
+      "scenes": [
+        "d316233e-20e7-44df-bd92-5c921c72cbca@356e6"
+      ]
+    }
+  }
+}

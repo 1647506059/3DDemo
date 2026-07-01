@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "ab868572-ad66-44af-bde2-799e8e0aaa07",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "ab868572-ad66-44af-bde2-799e8e0aaa07@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 116
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "ab868572-ad66-44af-bde2-799e8e0aaa07@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3c1a7": {
+      "importer": "gltf-scene",
+      "uuid": "ab868572-ad66-44af-bde2-799e8e0aaa07@3c1a7",
+      "displayName": "",
+      "id": "3c1a7",
+      "name": "ice_particle_1x3_007.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ab868572-ad66-44af-bde2-799e8e0aaa07@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ab868572-ad66-44af-bde2-799e8e0aaa07@ea6e2"
+      ],
+      "scenes": [
+        "ab868572-ad66-44af-bde2-799e8e0aaa07@3c1a7"
+      ]
+    }
+  }
+}

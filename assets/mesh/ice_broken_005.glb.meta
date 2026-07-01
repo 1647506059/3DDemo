@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "3b89e596-f21e-44e4-83a4-a6ba4ea2ce3d",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "3b89e596-f21e-44e4-83a4-a6ba4ea2ce3d@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 170
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "3b89e596-f21e-44e4-83a4-a6ba4ea2ce3d@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "98ddb": {
+      "importer": "gltf-scene",
+      "uuid": "3b89e596-f21e-44e4-83a4-a6ba4ea2ce3d@98ddb",
+      "displayName": "",
+      "id": "98ddb",
+      "name": "ice_broken_005.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3b89e596-f21e-44e4-83a4-a6ba4ea2ce3d@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3b89e596-f21e-44e4-83a4-a6ba4ea2ce3d@ea6e2"
+      ],
+      "scenes": [
+        "3b89e596-f21e-44e4-83a4-a6ba4ea2ce3d@98ddb"
+      ]
+    }
+  }
+}

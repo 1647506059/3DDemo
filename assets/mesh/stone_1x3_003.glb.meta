@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "2ec8b43f-9714-4a8b-a891-d38efa540c0e",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "2ec8b43f-9714-4a8b-a891-d38efa540c0e@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 116
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "2ec8b43f-9714-4a8b-a891-d38efa540c0e@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cd942": {
+      "importer": "gltf-scene",
+      "uuid": "2ec8b43f-9714-4a8b-a891-d38efa540c0e@cd942",
+      "displayName": "",
+      "id": "cd942",
+      "name": "stone_1x3_003.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2ec8b43f-9714-4a8b-a891-d38efa540c0e@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "2ec8b43f-9714-4a8b-a891-d38efa540c0e@ea6e2"
+      ],
+      "scenes": [
+        "2ec8b43f-9714-4a8b-a891-d38efa540c0e@cd942"
+      ]
+    }
+  }
+}

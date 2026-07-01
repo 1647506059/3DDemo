@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "1d4ebf3d-4a74-42e0-8a1a-aebfc6c53b3d",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "1d4ebf3d-4a74-42e0-8a1a-aebfc6c53b3d@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 119
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "1d4ebf3d-4a74-42e0-8a1a-aebfc6c53b3d@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "811a5": {
+      "importer": "gltf-scene",
+      "uuid": "1d4ebf3d-4a74-42e0-8a1a-aebfc6c53b3d@811a5",
+      "displayName": "",
+      "id": "811a5",
+      "name": "stone_circle_1x1_001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "1d4ebf3d-4a74-42e0-8a1a-aebfc6c53b3d@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "1d4ebf3d-4a74-42e0-8a1a-aebfc6c53b3d@ea6e2"
+      ],
+      "scenes": [
+        "1d4ebf3d-4a74-42e0-8a1a-aebfc6c53b3d@811a5"
+      ]
+    }
+  }
+}

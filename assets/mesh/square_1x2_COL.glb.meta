@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "3e812f07-3431-419e-a42e-3759191c925e",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "3e812f07-3431-419e-a42e-3759191c925e@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "3e812f07-3431-419e-a42e-3759191c925e@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f6f9": {
+      "importer": "gltf-scene",
+      "uuid": "3e812f07-3431-419e-a42e-3759191c925e@5f6f9",
+      "displayName": "",
+      "id": "5f6f9",
+      "name": "square_1x2_COL.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3e812f07-3431-419e-a42e-3759191c925e@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3e812f07-3431-419e-a42e-3759191c925e@ea6e2"
+      ],
+      "scenes": [
+        "3e812f07-3431-419e-a42e-3759191c925e@5f6f9"
+      ]
+    }
+  }
+}

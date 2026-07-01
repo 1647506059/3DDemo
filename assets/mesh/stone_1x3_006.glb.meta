@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "747edced-8a1f-4ca2-b918-6f2c0d2a0478",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "747edced-8a1f-4ca2-b918-6f2c0d2a0478@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 76
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "747edced-8a1f-4ca2-b918-6f2c0d2a0478@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5518e": {
+      "importer": "gltf-scene",
+      "uuid": "747edced-8a1f-4ca2-b918-6f2c0d2a0478@5518e",
+      "displayName": "",
+      "id": "5518e",
+      "name": "stone_1x3_006.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "747edced-8a1f-4ca2-b918-6f2c0d2a0478@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "747edced-8a1f-4ca2-b918-6f2c0d2a0478@ea6e2"
+      ],
+      "scenes": [
+        "747edced-8a1f-4ca2-b918-6f2c0d2a0478@5518e"
+      ]
+    }
+  }
+}

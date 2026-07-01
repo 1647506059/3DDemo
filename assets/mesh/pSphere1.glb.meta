@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "3950623b-317e-443c-bb1c-6106c0fdd24c",
+  "files": [],
+  "subMetas": {
+    "55298": {
+      "importer": "gltf-scene",
+      "uuid": "3950623b-317e-443c-bb1c-6106c0fdd24c@55298",
+      "displayName": "",
+      "id": "55298",
+      "name": "pSphere1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "3950623b-317e-443c-bb1c-6106c0fdd24c@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 760
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "3950623b-317e-443c-bb1c-6106c0fdd24c@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3950623b-317e-443c-bb1c-6106c0fdd24c@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3950623b-317e-443c-bb1c-6106c0fdd24c@ea6e2"
+      ],
+      "scenes": [
+        "3950623b-317e-443c-bb1c-6106c0fdd24c@55298"
+      ]
+    }
+  }
+}

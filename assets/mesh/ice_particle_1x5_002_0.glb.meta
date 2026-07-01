@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "9e5bd86a-9d6a-4905-b2ec-58e42bfdcc89",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "9e5bd86a-9d6a-4905-b2ec-58e42bfdcc89@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 116
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "9e5bd86a-9d6a-4905-b2ec-58e42bfdcc89@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "45d29": {
+      "importer": "gltf-scene",
+      "uuid": "9e5bd86a-9d6a-4905-b2ec-58e42bfdcc89@45d29",
+      "displayName": "",
+      "id": "45d29",
+      "name": "ice_particle_1x5_002_0.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "9e5bd86a-9d6a-4905-b2ec-58e42bfdcc89@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "9e5bd86a-9d6a-4905-b2ec-58e42bfdcc89@ea6e2"
+      ],
+      "scenes": [
+        "9e5bd86a-9d6a-4905-b2ec-58e42bfdcc89@45d29"
+      ]
+    }
+  }
+}

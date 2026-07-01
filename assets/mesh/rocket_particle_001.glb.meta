@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "eb058229-594f-4617-92ed-2fb2612b1fd9",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "eb058229-594f-4617-92ed-2fb2612b1fd9@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 76
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "eb058229-594f-4617-92ed-2fb2612b1fd9@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1948d": {
+      "importer": "gltf-scene",
+      "uuid": "eb058229-594f-4617-92ed-2fb2612b1fd9@1948d",
+      "displayName": "",
+      "id": "1948d",
+      "name": "rocket_particle_001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "eb058229-594f-4617-92ed-2fb2612b1fd9@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "eb058229-594f-4617-92ed-2fb2612b1fd9@ea6e2"
+      ],
+      "scenes": [
+        "eb058229-594f-4617-92ed-2fb2612b1fd9@1948d"
+      ]
+    }
+  }
+}

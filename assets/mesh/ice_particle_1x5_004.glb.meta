@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "e2c125e2-ce7f-4ee8-9f76-cd4cc56ff096",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "e2c125e2-ce7f-4ee8-9f76-cd4cc56ff096@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "e2c125e2-ce7f-4ee8-9f76-cd4cc56ff096@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2d6aa": {
+      "importer": "gltf-scene",
+      "uuid": "e2c125e2-ce7f-4ee8-9f76-cd4cc56ff096@2d6aa",
+      "displayName": "",
+      "id": "2d6aa",
+      "name": "ice_particle_1x5_004.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e2c125e2-ce7f-4ee8-9f76-cd4cc56ff096@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "e2c125e2-ce7f-4ee8-9f76-cd4cc56ff096@ea6e2"
+      ],
+      "scenes": [
+        "e2c125e2-ce7f-4ee8-9f76-cd4cc56ff096@2d6aa"
+      ]
+    }
+  }
+}

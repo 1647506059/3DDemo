@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "3848854d-d95f-4d80-b809-ca1ac99af5b6",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "3848854d-d95f-4d80-b809-ca1ac99af5b6@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 77
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "3848854d-d95f-4d80-b809-ca1ac99af5b6@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cd579": {
+      "importer": "gltf-scene",
+      "uuid": "3848854d-d95f-4d80-b809-ca1ac99af5b6@cd579",
+      "displayName": "",
+      "id": "cd579",
+      "name": "stone_circle_1x2_001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3848854d-d95f-4d80-b809-ca1ac99af5b6@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3848854d-d95f-4d80-b809-ca1ac99af5b6@ea6e2"
+      ],
+      "scenes": [
+        "3848854d-d95f-4d80-b809-ca1ac99af5b6@cd579"
+      ]
+    }
+  }
+}

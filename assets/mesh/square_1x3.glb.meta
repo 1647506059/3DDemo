@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "05eac5cb-28e0-4996-9771-b2eaee332205",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "05eac5cb-28e0-4996-9771-b2eaee332205@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 402
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "05eac5cb-28e0-4996-9771-b2eaee332205@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "212e0": {
+      "importer": "gltf-scene",
+      "uuid": "05eac5cb-28e0-4996-9771-b2eaee332205@212e0",
+      "displayName": "",
+      "id": "212e0",
+      "name": "square_1x3.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "05eac5cb-28e0-4996-9771-b2eaee332205@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "05eac5cb-28e0-4996-9771-b2eaee332205@ea6e2"
+      ],
+      "scenes": [
+        "05eac5cb-28e0-4996-9771-b2eaee332205@212e0"
+      ]
+    }
+  }
+}

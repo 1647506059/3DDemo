@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "92627b5d-d9a9-4110-8519-abcacb70ccaf",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "92627b5d-d9a9-4110-8519-abcacb70ccaf@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "92627b5d-d9a9-4110-8519-abcacb70ccaf@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8eedb": {
+      "importer": "gltf-scene",
+      "uuid": "92627b5d-d9a9-4110-8519-abcacb70ccaf@8eedb",
+      "displayName": "",
+      "id": "8eedb",
+      "name": "polySurface21.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "92627b5d-d9a9-4110-8519-abcacb70ccaf@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "92627b5d-d9a9-4110-8519-abcacb70ccaf@ea6e2"
+      ],
+      "scenes": [
+        "92627b5d-d9a9-4110-8519-abcacb70ccaf@8eedb"
+      ]
+    }
+  }
+}

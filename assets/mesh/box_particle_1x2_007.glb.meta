@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "46088730-d0c5-40a5-a284-63222cd0c983",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "46088730-d0c5-40a5-a284-63222cd0c983@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "46088730-d0c5-40a5-a284-63222cd0c983@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dc33a": {
+      "importer": "gltf-scene",
+      "uuid": "46088730-d0c5-40a5-a284-63222cd0c983@dc33a",
+      "displayName": "",
+      "id": "dc33a",
+      "name": "box_particle_1x2_007.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "46088730-d0c5-40a5-a284-63222cd0c983@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "46088730-d0c5-40a5-a284-63222cd0c983@ea6e2"
+      ],
+      "scenes": [
+        "46088730-d0c5-40a5-a284-63222cd0c983@dc33a"
+      ]
+    }
+  }
+}

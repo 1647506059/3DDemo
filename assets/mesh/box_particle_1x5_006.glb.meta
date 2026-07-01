@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "7f6d6059-b738-45b0-aabf-6a1e63778dce",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "7f6d6059-b738-45b0-aabf-6a1e63778dce@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "7f6d6059-b738-45b0-aabf-6a1e63778dce@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b129": {
+      "importer": "gltf-scene",
+      "uuid": "7f6d6059-b738-45b0-aabf-6a1e63778dce@8b129",
+      "displayName": "",
+      "id": "8b129",
+      "name": "box_particle_1x5_006.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7f6d6059-b738-45b0-aabf-6a1e63778dce@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "7f6d6059-b738-45b0-aabf-6a1e63778dce@ea6e2"
+      ],
+      "scenes": [
+        "7f6d6059-b738-45b0-aabf-6a1e63778dce@8b129"
+      ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "eb9ea0c3-6a24-4963-8e50-d7cfcbaf7901",
+  "files": [],
+  "subMetas": {
+    "37892": {
+      "importer": "gltf-scene",
+      "uuid": "eb9ea0c3-6a24-4963-8e50-d7cfcbaf7901@37892",
+      "displayName": "",
+      "id": "37892",
+      "name": "TableRight.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "eb9ea0c3-6a24-4963-8e50-d7cfcbaf7901@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "eb9ea0c3-6a24-4963-8e50-d7cfcbaf7901@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "eb9ea0c3-6a24-4963-8e50-d7cfcbaf7901@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "eb9ea0c3-6a24-4963-8e50-d7cfcbaf7901@ea6e2"
+      ],
+      "scenes": [
+        "eb9ea0c3-6a24-4963-8e50-d7cfcbaf7901@37892"
+      ]
+    }
+  }
+}

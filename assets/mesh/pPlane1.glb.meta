@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d3d6983e-c5ba-4066-bedc-6cf4bccbdb25",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "d3d6983e-c5ba-4066-bedc-6cf4bccbdb25@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 200
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "d3d6983e-c5ba-4066-bedc-6cf4bccbdb25@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a3404": {
+      "importer": "gltf-scene",
+      "uuid": "d3d6983e-c5ba-4066-bedc-6cf4bccbdb25@a3404",
+      "displayName": "",
+      "id": "a3404",
+      "name": "pPlane1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d3d6983e-c5ba-4066-bedc-6cf4bccbdb25@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d3d6983e-c5ba-4066-bedc-6cf4bccbdb25@ea6e2"
+      ],
+      "scenes": [
+        "d3d6983e-c5ba-4066-bedc-6cf4bccbdb25@a3404"
+      ]
+    }
+  }
+}

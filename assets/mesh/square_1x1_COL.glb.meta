@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "03c1e2e1-334f-432e-9c81-23f8ae73d715",
+  "files": [],
+  "subMetas": {
+    "58818": {
+      "importer": "gltf-scene",
+      "uuid": "03c1e2e1-334f-432e-9c81-23f8ae73d715@58818",
+      "displayName": "",
+      "id": "58818",
+      "name": "square_1x1_COL.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "03c1e2e1-334f-432e-9c81-23f8ae73d715@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "03c1e2e1-334f-432e-9c81-23f8ae73d715@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "03c1e2e1-334f-432e-9c81-23f8ae73d715@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "03c1e2e1-334f-432e-9c81-23f8ae73d715@ea6e2"
+      ],
+      "scenes": [
+        "03c1e2e1-334f-432e-9c81-23f8ae73d715@58818"
+      ]
+    }
+  }
+}

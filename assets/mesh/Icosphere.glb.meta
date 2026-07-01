@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "e33c2e60-45e6-45b9-9bb2-3ffccf96c52a",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "e33c2e60-45e6-45b9-9bb2-3ffccf96c52a@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 80
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "e33c2e60-45e6-45b9-9bb2-3ffccf96c52a@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1113": {
+      "importer": "gltf-scene",
+      "uuid": "e33c2e60-45e6-45b9-9bb2-3ffccf96c52a@c1113",
+      "displayName": "",
+      "id": "c1113",
+      "name": "Icosphere.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e33c2e60-45e6-45b9-9bb2-3ffccf96c52a@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "e33c2e60-45e6-45b9-9bb2-3ffccf96c52a@ea6e2"
+      ],
+      "scenes": [
+        "e33c2e60-45e6-45b9-9bb2-3ffccf96c52a@c1113"
+      ]
+    }
+  }
+}

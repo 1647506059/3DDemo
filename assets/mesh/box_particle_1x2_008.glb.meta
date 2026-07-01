@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "5a4a29c7-acf7-42aa-bc8b-82e9929cd0a1",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "5a4a29c7-acf7-42aa-bc8b-82e9929cd0a1@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 68
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "5a4a29c7-acf7-42aa-bc8b-82e9929cd0a1@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "abb23": {
+      "importer": "gltf-scene",
+      "uuid": "5a4a29c7-acf7-42aa-bc8b-82e9929cd0a1@abb23",
+      "displayName": "",
+      "id": "abb23",
+      "name": "box_particle_1x2_008.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5a4a29c7-acf7-42aa-bc8b-82e9929cd0a1@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5a4a29c7-acf7-42aa-bc8b-82e9929cd0a1@ea6e2"
+      ],
+      "scenes": [
+        "5a4a29c7-acf7-42aa-bc8b-82e9929cd0a1@abb23"
+      ]
+    }
+  }
+}

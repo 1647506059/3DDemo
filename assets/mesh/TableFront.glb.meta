@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "6f7574ec-2aa2-4d76-9c8b-68d3a6b47620",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "6f7574ec-2aa2-4d76-9c8b-68d3a6b47620@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 46
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "6f7574ec-2aa2-4d76-9c8b-68d3a6b47620@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "aec06": {
+      "importer": "gltf-scene",
+      "uuid": "6f7574ec-2aa2-4d76-9c8b-68d3a6b47620@aec06",
+      "displayName": "",
+      "id": "aec06",
+      "name": "TableFront.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6f7574ec-2aa2-4d76-9c8b-68d3a6b47620@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6f7574ec-2aa2-4d76-9c8b-68d3a6b47620@ea6e2"
+      ],
+      "scenes": [
+        "6f7574ec-2aa2-4d76-9c8b-68d3a6b47620@aec06"
+      ]
+    }
+  }
+}

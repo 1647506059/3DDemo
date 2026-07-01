@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "18c2f0b1-ef7a-460d-8d44-0b2d5726d2f9",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "18c2f0b1-ef7a-460d-8d44-0b2d5726d2f9@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 82
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "18c2f0b1-ef7a-460d-8d44-0b2d5726d2f9@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1897": {
+      "importer": "gltf-scene",
+      "uuid": "18c2f0b1-ef7a-460d-8d44-0b2d5726d2f9@c1897",
+      "displayName": "",
+      "id": "c1897",
+      "name": "stone_circle_1x4_004.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "18c2f0b1-ef7a-460d-8d44-0b2d5726d2f9@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "18c2f0b1-ef7a-460d-8d44-0b2d5726d2f9@ea6e2"
+      ],
+      "scenes": [
+        "18c2f0b1-ef7a-460d-8d44-0b2d5726d2f9@c1897"
+      ]
+    }
+  }
+}

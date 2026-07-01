@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "53f6b769-ae7a-4a9b-bac7-e1c4444d2645",
+  "files": [],
+  "subMetas": {
+    "66039": {
+      "importer": "gltf-scene",
+      "uuid": "53f6b769-ae7a-4a9b-bac7-e1c4444d2645@66039",
+      "displayName": "",
+      "id": "66039",
+      "name": "box_particle_1x3_005.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "53f6b769-ae7a-4a9b-bac7-e1c4444d2645@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "53f6b769-ae7a-4a9b-bac7-e1c4444d2645@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "53f6b769-ae7a-4a9b-bac7-e1c4444d2645@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "53f6b769-ae7a-4a9b-bac7-e1c4444d2645@ea6e2"
+      ],
+      "scenes": [
+        "53f6b769-ae7a-4a9b-bac7-e1c4444d2645@66039"
+      ]
+    }
+  }
+}

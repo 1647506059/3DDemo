@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "a02a146a-fe76-4990-8421-2946ac4417fb",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "a02a146a-fe76-4990-8421-2946ac4417fb@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "a02a146a-fe76-4990-8421-2946ac4417fb@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b3a2c": {
+      "importer": "gltf-scene",
+      "uuid": "a02a146a-fe76-4990-8421-2946ac4417fb@b3a2c",
+      "displayName": "",
+      "id": "b3a2c",
+      "name": "box_particle_1x3_001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a02a146a-fe76-4990-8421-2946ac4417fb@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "a02a146a-fe76-4990-8421-2946ac4417fb@ea6e2"
+      ],
+      "scenes": [
+        "a02a146a-fe76-4990-8421-2946ac4417fb@b3a2c"
+      ]
+    }
+  }
+}

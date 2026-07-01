@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "486c2742-f4e3-4d95-b969-4f6ecbc137f9",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "486c2742-f4e3-4d95-b969-4f6ecbc137f9@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "486c2742-f4e3-4d95-b969-4f6ecbc137f9@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a488": {
+      "importer": "gltf-scene",
+      "uuid": "486c2742-f4e3-4d95-b969-4f6ecbc137f9@7a488",
+      "displayName": "",
+      "id": "7a488",
+      "name": "box_1x4_COL.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "486c2742-f4e3-4d95-b969-4f6ecbc137f9@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "486c2742-f4e3-4d95-b969-4f6ecbc137f9@ea6e2"
+      ],
+      "scenes": [
+        "486c2742-f4e3-4d95-b969-4f6ecbc137f9@7a488"
+      ]
+    }
+  }
+}

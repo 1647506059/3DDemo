@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "c8a21ce0-fe86-4e20-a0eb-7c68339debfd",
+  "files": [],
+  "subMetas": {
+    "75183": {
+      "importer": "gltf-scene",
+      "uuid": "c8a21ce0-fe86-4e20-a0eb-7c68339debfd@75183",
+      "displayName": "",
+      "id": "75183",
+      "name": "square_1x1_broken.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "c8a21ce0-fe86-4e20-a0eb-7c68339debfd@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 458
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "c8a21ce0-fe86-4e20-a0eb-7c68339debfd@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c8a21ce0-fe86-4e20-a0eb-7c68339debfd@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c8a21ce0-fe86-4e20-a0eb-7c68339debfd@ea6e2"
+      ],
+      "scenes": [
+        "c8a21ce0-fe86-4e20-a0eb-7c68339debfd@75183"
+      ]
+    }
+  }
+}

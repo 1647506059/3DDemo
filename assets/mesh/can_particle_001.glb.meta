@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "0fbfa44b-e9d0-4278-bc35-ea43c6bc2932",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "0fbfa44b-e9d0-4278-bc35-ea43c6bc2932@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 154
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "0fbfa44b-e9d0-4278-bc35-ea43c6bc2932@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "147ba": {
+      "importer": "gltf-scene",
+      "uuid": "0fbfa44b-e9d0-4278-bc35-ea43c6bc2932@147ba",
+      "displayName": "",
+      "id": "147ba",
+      "name": "can_particle_001.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0fbfa44b-e9d0-4278-bc35-ea43c6bc2932@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "0fbfa44b-e9d0-4278-bc35-ea43c6bc2932@ea6e2"
+      ],
+      "scenes": [
+        "0fbfa44b-e9d0-4278-bc35-ea43c6bc2932@147ba"
+      ]
+    }
+  }
+}

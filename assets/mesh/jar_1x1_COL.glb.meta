@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "1772bdf1-99cc-45ab-aae1-599e6279d3a5",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "1772bdf1-99cc-45ab-aae1-599e6279d3a5@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 240
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "1772bdf1-99cc-45ab-aae1-599e6279d3a5@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8c80": {
+      "importer": "gltf-scene",
+      "uuid": "1772bdf1-99cc-45ab-aae1-599e6279d3a5@e8c80",
+      "displayName": "",
+      "id": "e8c80",
+      "name": "jar_1x1_COL.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "1772bdf1-99cc-45ab-aae1-599e6279d3a5@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "1772bdf1-99cc-45ab-aae1-599e6279d3a5@ea6e2"
+      ],
+      "scenes": [
+        "1772bdf1-99cc-45ab-aae1-599e6279d3a5@e8c80"
+      ]
+    }
+  }
+}

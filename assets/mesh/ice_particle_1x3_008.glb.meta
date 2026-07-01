@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "52cc2efe-d915-4e7f-9bc2-eef2908fca05",
+  "files": [],
+  "subMetas": {
+    "86664": {
+      "importer": "gltf-scene",
+      "uuid": "52cc2efe-d915-4e7f-9bc2-eef2908fca05@86664",
+      "displayName": "",
+      "id": "86664",
+      "name": "ice_particle_1x3_008.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "52cc2efe-d915-4e7f-9bc2-eef2908fca05@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 76
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "52cc2efe-d915-4e7f-9bc2-eef2908fca05@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "52cc2efe-d915-4e7f-9bc2-eef2908fca05@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "52cc2efe-d915-4e7f-9bc2-eef2908fca05@ea6e2"
+      ],
+      "scenes": [
+        "52cc2efe-d915-4e7f-9bc2-eef2908fca05@86664"
+      ]
+    }
+  }
+}

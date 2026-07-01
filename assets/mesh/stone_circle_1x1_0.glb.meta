@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "64d7360f-08fd-4d1c-9ea2-1d36b4235ec1",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "64d7360f-08fd-4d1c-9ea2-1d36b4235ec1@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 144
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "64d7360f-08fd-4d1c-9ea2-1d36b4235ec1@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b6f3b": {
+      "importer": "gltf-scene",
+      "uuid": "64d7360f-08fd-4d1c-9ea2-1d36b4235ec1@b6f3b",
+      "displayName": "",
+      "id": "b6f3b",
+      "name": "stone_circle_1x1_0.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "64d7360f-08fd-4d1c-9ea2-1d36b4235ec1@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "64d7360f-08fd-4d1c-9ea2-1d36b4235ec1@ea6e2"
+      ],
+      "scenes": [
+        "64d7360f-08fd-4d1c-9ea2-1d36b4235ec1@b6f3b"
+      ]
+    }
+  }
+}

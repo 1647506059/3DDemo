@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "e0cfad49-13a8-4501-aa93-af562bc77d6e",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "e0cfad49-13a8-4501-aa93-af562bc77d6e@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 480
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "e0cfad49-13a8-4501-aa93-af562bc77d6e@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "85a0c": {
+      "importer": "gltf-scene",
+      "uuid": "e0cfad49-13a8-4501-aa93-af562bc77d6e@85a0c",
+      "displayName": "",
+      "id": "85a0c",
+      "name": "polySurface43.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e0cfad49-13a8-4501-aa93-af562bc77d6e@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "e0cfad49-13a8-4501-aa93-af562bc77d6e@ea6e2"
+      ],
+      "scenes": [
+        "e0cfad49-13a8-4501-aa93-af562bc77d6e@85a0c"
+      ]
+    }
+  }
+}

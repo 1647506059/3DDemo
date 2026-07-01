@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "5d87f442-350c-4b63-87d5-d23ab981febd",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "5d87f442-350c-4b63-87d5-d23ab981febd@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 64
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "5d87f442-350c-4b63-87d5-d23ab981febd@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f616": {
+      "importer": "gltf-scene",
+      "uuid": "5d87f442-350c-4b63-87d5-d23ab981febd@1f616",
+      "displayName": "",
+      "id": "1f616",
+      "name": "box_particle_1x5_003.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5d87f442-350c-4b63-87d5-d23ab981febd@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5d87f442-350c-4b63-87d5-d23ab981febd@ea6e2"
+      ],
+      "scenes": [
+        "5d87f442-350c-4b63-87d5-d23ab981febd@1f616"
+      ]
+    }
+  }
+}

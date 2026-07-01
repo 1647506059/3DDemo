@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d9e18fc9-4ae8-4dec-a209-d966c179c12d",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "d9e18fc9-4ae8-4dec-a209-d966c179c12d@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 30
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "d9e18fc9-4ae8-4dec-a209-d966c179c12d@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8afbf": {
+      "importer": "gltf-scene",
+      "uuid": "d9e18fc9-4ae8-4dec-a209-d966c179c12d@8afbf",
+      "displayName": "",
+      "id": "8afbf",
+      "name": "ice_broken_006.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d9e18fc9-4ae8-4dec-a209-d966c179c12d@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d9e18fc9-4ae8-4dec-a209-d966c179c12d@ea6e2"
+      ],
+      "scenes": [
+        "d9e18fc9-4ae8-4dec-a209-d966c179c12d@8afbf"
+      ]
+    }
+  }
+}

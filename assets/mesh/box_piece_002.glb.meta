@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "edb6f189-a09b-410e-90f7-81c16ab64bbe",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "edb6f189-a09b-410e-90f7-81c16ab64bbe@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 108
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "edb6f189-a09b-410e-90f7-81c16ab64bbe@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9444d": {
+      "importer": "gltf-scene",
+      "uuid": "edb6f189-a09b-410e-90f7-81c16ab64bbe@9444d",
+      "displayName": "",
+      "id": "9444d",
+      "name": "box_piece_002.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "edb6f189-a09b-410e-90f7-81c16ab64bbe@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "edb6f189-a09b-410e-90f7-81c16ab64bbe@ea6e2"
+      ],
+      "scenes": [
+        "edb6f189-a09b-410e-90f7-81c16ab64bbe@9444d"
+      ]
+    }
+  }
+}

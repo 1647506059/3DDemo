@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "adb6a043-5c4b-44d0-a74b-e24384ea0bd2",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "adb6a043-5c4b-44d0-a74b-e24384ea0bd2@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 160
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "adb6a043-5c4b-44d0-a74b-e24384ea0bd2@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe2a3": {
+      "importer": "gltf-scene",
+      "uuid": "adb6a043-5c4b-44d0-a74b-e24384ea0bd2@fe2a3",
+      "displayName": "",
+      "id": "fe2a3",
+      "name": "polySurface8.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "adb6a043-5c4b-44d0-a74b-e24384ea0bd2@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "adb6a043-5c4b-44d0-a74b-e24384ea0bd2@ea6e2"
+      ],
+      "scenes": [
+        "adb6a043-5c4b-44d0-a74b-e24384ea0bd2@fe2a3"
+      ]
+    }
+  }
+}

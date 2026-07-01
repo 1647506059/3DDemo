@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "196e02ee-730c-4363-aaee-d125eb2c504c",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "196e02ee-730c-4363-aaee-d125eb2c504c@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "196e02ee-730c-4363-aaee-d125eb2c504c@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ab776": {
+      "importer": "gltf-scene",
+      "uuid": "196e02ee-730c-4363-aaee-d125eb2c504c@ab776",
+      "displayName": "",
+      "id": "ab776",
+      "name": "box_particle_1x5_002.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "196e02ee-730c-4363-aaee-d125eb2c504c@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "196e02ee-730c-4363-aaee-d125eb2c504c@ea6e2"
+      ],
+      "scenes": [
+        "196e02ee-730c-4363-aaee-d125eb2c504c@ab776"
+      ]
+    }
+  }
+}

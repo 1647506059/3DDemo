@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "a7cd7e37-2939-4e74-8ad1-13aa52481a08",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "a7cd7e37-2939-4e74-8ad1-13aa52481a08@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "a7cd7e37-2939-4e74-8ad1-13aa52481a08@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4443c": {
+      "importer": "gltf-scene",
+      "uuid": "a7cd7e37-2939-4e74-8ad1-13aa52481a08@4443c",
+      "displayName": "",
+      "id": "4443c",
+      "name": "ice_particle_1x5_006_2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a7cd7e37-2939-4e74-8ad1-13aa52481a08@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "a7cd7e37-2939-4e74-8ad1-13aa52481a08@ea6e2"
+      ],
+      "scenes": [
+        "a7cd7e37-2939-4e74-8ad1-13aa52481a08@4443c"
+      ]
+    }
+  }
+}

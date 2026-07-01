@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "f8c20530-605d-41ed-9f33-a759371f7788",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "f8c20530-605d-41ed-9f33-a759371f7788@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 630
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "f8c20530-605d-41ed-9f33-a759371f7788@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "907df": {
+      "importer": "gltf-scene",
+      "uuid": "f8c20530-605d-41ed-9f33-a759371f7788@907df",
+      "displayName": "",
+      "id": "907df",
+      "name": "can_1x2_broken.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f8c20530-605d-41ed-9f33-a759371f7788@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "f8c20530-605d-41ed-9f33-a759371f7788@ea6e2"
+      ],
+      "scenes": [
+        "f8c20530-605d-41ed-9f33-a759371f7788@907df"
+      ]
+    }
+  }
+}

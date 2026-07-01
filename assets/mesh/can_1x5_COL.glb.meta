@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d06f3a1c-60b8-4ba8-ae28-ffcaf6df753e",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "d06f3a1c-60b8-4ba8-ae28-ffcaf6df753e@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 160
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "d06f3a1c-60b8-4ba8-ae28-ffcaf6df753e@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ee1d5": {
+      "importer": "gltf-scene",
+      "uuid": "d06f3a1c-60b8-4ba8-ae28-ffcaf6df753e@ee1d5",
+      "displayName": "",
+      "id": "ee1d5",
+      "name": "can_1x5_COL.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d06f3a1c-60b8-4ba8-ae28-ffcaf6df753e@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d06f3a1c-60b8-4ba8-ae28-ffcaf6df753e@ea6e2"
+      ],
+      "scenes": [
+        "d06f3a1c-60b8-4ba8-ae28-ffcaf6df753e@ee1d5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d2b1a45a-f591-4435-a047-742d0264925b",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "d2b1a45a-f591-4435-a047-742d0264925b@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "d2b1a45a-f591-4435-a047-742d0264925b@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ecf05": {
+      "importer": "gltf-scene",
+      "uuid": "d2b1a45a-f591-4435-a047-742d0264925b@ecf05",
+      "displayName": "",
+      "id": "ecf05",
+      "name": "stone_circle_1x3_006.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d2b1a45a-f591-4435-a047-742d0264925b@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d2b1a45a-f591-4435-a047-742d0264925b@ea6e2"
+      ],
+      "scenes": [
+        "d2b1a45a-f591-4435-a047-742d0264925b@ecf05"
+      ]
+    }
+  }
+}

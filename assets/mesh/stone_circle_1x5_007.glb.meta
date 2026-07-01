@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "6945f38d-9c53-4973-a888-44e63aa35711",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "6945f38d-9c53-4973-a888-44e63aa35711@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 91
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "6945f38d-9c53-4973-a888-44e63aa35711@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b6ecf": {
+      "importer": "gltf-scene",
+      "uuid": "6945f38d-9c53-4973-a888-44e63aa35711@b6ecf",
+      "displayName": "",
+      "id": "b6ecf",
+      "name": "stone_circle_1x5_007.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6945f38d-9c53-4973-a888-44e63aa35711@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6945f38d-9c53-4973-a888-44e63aa35711@ea6e2"
+      ],
+      "scenes": [
+        "6945f38d-9c53-4973-a888-44e63aa35711@b6ecf"
+      ]
+    }
+  }
+}

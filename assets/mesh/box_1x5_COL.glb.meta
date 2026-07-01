@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "c0f19f46-96fd-4882-8fd2-2d9f92be6139",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "c0f19f46-96fd-4882-8fd2-2d9f92be6139@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "c0f19f46-96fd-4882-8fd2-2d9f92be6139@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "607b9": {
+      "importer": "gltf-scene",
+      "uuid": "c0f19f46-96fd-4882-8fd2-2d9f92be6139@607b9",
+      "displayName": "",
+      "id": "607b9",
+      "name": "box_1x5_COL.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c0f19f46-96fd-4882-8fd2-2d9f92be6139@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c0f19f46-96fd-4882-8fd2-2d9f92be6139@ea6e2"
+      ],
+      "scenes": [
+        "c0f19f46-96fd-4882-8fd2-2d9f92be6139@607b9"
+      ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "55782dac-ecab-446c-b560-0444c4d9130b",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "55782dac-ecab-446c-b560-0444c4d9130b@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 16
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "55782dac-ecab-446c-b560-0444c4d9130b@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3f84e": {
+      "importer": "gltf-scene",
+      "uuid": "55782dac-ecab-446c-b560-0444c4d9130b@3f84e",
+      "displayName": "",
+      "id": "3f84e",
+      "name": "Confetti_Mesh.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "55782dac-ecab-446c-b560-0444c4d9130b@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "55782dac-ecab-446c-b560-0444c4d9130b@ea6e2"
+      ],
+      "scenes": [
+        "55782dac-ecab-446c-b560-0444c4d9130b@3f84e"
+      ]
+    }
+  }
+}

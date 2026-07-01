@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "767b8fea-9667-4e06-9d01-1c77a46c1a36",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "767b8fea-9667-4e06-9d01-1c77a46c1a36@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 58
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "767b8fea-9667-4e06-9d01-1c77a46c1a36@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "62f19": {
+      "importer": "gltf-scene",
+      "uuid": "767b8fea-9667-4e06-9d01-1c77a46c1a36@62f19",
+      "displayName": "",
+      "id": "62f19",
+      "name": "stone_circle_1x5_005.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "767b8fea-9667-4e06-9d01-1c77a46c1a36@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "767b8fea-9667-4e06-9d01-1c77a46c1a36@ea6e2"
+      ],
+      "scenes": [
+        "767b8fea-9667-4e06-9d01-1c77a46c1a36@62f19"
+      ]
+    }
+  }
+}

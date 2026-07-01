@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "81fb4d2c-fceb-4aaf-8833-e32f326f7f4d",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "81fb4d2c-fceb-4aaf-8833-e32f326f7f4d@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 94
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "81fb4d2c-fceb-4aaf-8833-e32f326f7f4d@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1864e": {
+      "importer": "gltf-scene",
+      "uuid": "81fb4d2c-fceb-4aaf-8833-e32f326f7f4d@1864e",
+      "displayName": "",
+      "id": "1864e",
+      "name": "stone_circle_1x2_005.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "81fb4d2c-fceb-4aaf-8833-e32f326f7f4d@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "81fb4d2c-fceb-4aaf-8833-e32f326f7f4d@ea6e2"
+      ],
+      "scenes": [
+        "81fb4d2c-fceb-4aaf-8833-e32f326f7f4d@1864e"
+      ]
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "ac13a4a1-a9e9-4337-abb5-1a02fcf9db34",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "ac13a4a1-a9e9-4337-abb5-1a02fcf9db34@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 76
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "ac13a4a1-a9e9-4337-abb5-1a02fcf9db34@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6de7f": {
+      "importer": "gltf-scene",
+      "uuid": "ac13a4a1-a9e9-4337-abb5-1a02fcf9db34@6de7f",
+      "displayName": "",
+      "id": "6de7f",
+      "name": "stone_1x2_004.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ac13a4a1-a9e9-4337-abb5-1a02fcf9db34@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ac13a4a1-a9e9-4337-abb5-1a02fcf9db34@ea6e2"
+      ],
+      "scenes": [
+        "ac13a4a1-a9e9-4337-abb5-1a02fcf9db34@6de7f"
+      ]
+    }
+  }
+}

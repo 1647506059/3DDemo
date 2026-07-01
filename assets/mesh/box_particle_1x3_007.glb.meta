@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "caaa6238-a852-47b8-bffd-72666af00ab8",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "caaa6238-a852-47b8-bffd-72666af00ab8@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 44
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea6e2": {
+      "importer": "gltf-material",
+      "uuid": "caaa6238-a852-47b8-bffd-72666af00ab8@ea6e2",
+      "displayName": "",
+      "id": "ea6e2",
+      "name": "DefaultMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3fb3b": {
+      "importer": "gltf-scene",
+      "uuid": "caaa6238-a852-47b8-bffd-72666af00ab8@3fb3b",
+      "displayName": "",
+      "id": "3fb3b",
+      "name": "box_particle_1x3_007.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "caaa6238-a852-47b8-bffd-72666af00ab8@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "caaa6238-a852-47b8-bffd-72666af00ab8@ea6e2"
+      ],
+      "scenes": [
+        "caaa6238-a852-47b8-bffd-72666af00ab8@3fb3b"
+      ]
+    }
+  }
+}
