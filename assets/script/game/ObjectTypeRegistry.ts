@@ -40,10 +40,6 @@ export class ObjectTypeRegistry {
         meshNames.add('Cube');
         meshNames.add('TableTop');
         meshNames.add('TablePole');
-        meshNames.add('TableBottom');
-        meshNames.add('CannonBody');
-        meshNames.add('CannonBottom');
-        meshNames.add('CannonBall');
         await MeshLoader.preload([...meshNames]);
     }
 

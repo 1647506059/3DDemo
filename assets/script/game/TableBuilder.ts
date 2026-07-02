@@ -1,22 +1,15 @@
-import {
-    BoxCollider,
-    ERigidBodyType,
-    Node,
-    Quat,
-    RigidBody,
-    Vec3,
-} from 'cc';
+import { Node } from 'cc';
 import { quatFromJson, TableConfig, vec3FromJson } from './LevelData';
 import { MeshLoader } from './MeshLoader';
 
-/** 平台顶面世界 Y 与半径信息 */
+/** 平台顶面世界 Y 与半径信息（用于关卡包围盒估算） */
 export interface TableInfo {
     node: Node;
     topY: number;
     radius: number;
 }
 
-/** 拼装静态射击平台（局部 y=0 为台面） */
+/** 拼装关卡展示用平台模型（局部 y=0 为台面，仅生成可视节点） */
 export class TableBuilder {
     /** 根据配置创建平台节点 */
     static async build(cfg: TableConfig, parent: Node): Promise<TableInfo> {
@@ -46,13 +39,6 @@ export class TableBuilder {
         } catch (e) {
             console.warn('[TableBuilder] TableTop 加载失败', e);
         }
-
-        const body = root.addComponent(RigidBody);
-        body.type = ERigidBodyType.STATIC;
-
-        const collider = root.addComponent(BoxCollider);
-        collider.size = new Vec3(topW, 0.2, topD);
-        collider.center = new Vec3(0, 0, 0);
 
         const wp = root.worldPosition;
         const topY = wp.y;

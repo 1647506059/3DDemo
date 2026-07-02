@@ -1,26 +1,27 @@
-import { JsonAsset, Node, PhysicsSystem, resources } from 'cc';
+import { JsonAsset, Node, resources, Vec3 } from 'cc';
 import { LevelConfig, StageConfig } from './LevelData';
 import { ObjectTypeRegistry } from './ObjectTypeRegistry';
 import { TableBuilder, TableInfo } from './TableBuilder';
-import { TargetBlock } from './TargetBlock';
+import { LevelObjectBuilder } from './LevelObjectBuilder';
+
+/** 关卡整体包围盒（世界坐标） */
+export interface LevelBounds {
+    min: Vec3;
+    max: Vec3;
+}
 
 /** 关卡加载结果 */
 export interface LevelLoadResult {
     config: LevelConfig;
-    targets: TargetBlock[];
-    tables: TableInfo[];
+    bounds: LevelBounds;
 }
 
-/** 从 JSON 加载关卡并生成物理目标 */
+/** 从 JSON 加载关卡并生成静态展示模型 */
 export class LevelLoader {
     constructor(private _registry: ObjectTypeRegistry) {}
 
-    /** 加载指定关卡到 levelRoot */
-    async loadLevel(
-        levelIndex: number,
-        levelRoot: Node,
-        onKnocked?: (block: TargetBlock) => void,
-    ): Promise<LevelLoadResult> {
+    /** 加载指定关卡到 levelRoot，仅生成可视模型 */
+    async loadLevel(levelIndex: number, levelRoot: Node): Promise<LevelLoadResult> {
         levelRoot.removeAllChildren();
 
         const config = await this._loadConfig(levelIndex);
@@ -35,27 +36,57 @@ export class LevelLoader {
             tableMap.set(tableCfg.id, info);
         }
 
-        const targets: TargetBlock[] = [];
         for (const objCfg of stage.objects) {
             const table = tableMap.get(objCfg.tableId);
             if (!table) {
                 console.warn(`[LevelLoader] 找不到 tableId=${objCfg.tableId}`);
                 continue;
             }
-
-            const block = await TargetBlock.create(
-                objCfg,
-                this._registry,
-                table,
-                table.node,
-                () => { /* 稍后绑定 */ },
-            );
-            block.setKnockCallback(() => onKnocked?.(block));
-            targets.push(block);
+            await LevelObjectBuilder.build(objCfg, this._registry, table.node);
         }
 
-        PhysicsSystem.instance.syncSceneToPhysics();
-        return { config, targets, tables: [...tableMap.values()] };
+        return { config, bounds: this._computeBounds(stage) };
+    }
+
+    /** 根据关卡原始配置估算世界包围盒，供相机取景使用 */
+    private _computeBounds(stage: StageConfig): LevelBounds {
+        const min = new Vec3(Infinity, Infinity, Infinity);
+        const max = new Vec3(-Infinity, -Infinity, -Infinity);
+        const expand = (x: number, y: number, z: number) => {
+            min.x = Math.min(min.x, x);
+            min.y = Math.min(min.y, y);
+            min.z = Math.min(min.z, z);
+            max.x = Math.max(max.x, x);
+            max.y = Math.max(max.y, y);
+            max.z = Math.max(max.z, z);
+        };
+
+        const tableById = new Map(stage.tables.map((t) => [t.id, t]));
+
+        for (const t of stage.tables) {
+            const halfX = Math.max(t.dim.x, 1) * 0.5;
+            const halfZ = Math.max(Math.abs(t.dim.z), 1) * 0.5;
+            const poleH = Math.max(t.dim.y, 0.5);
+            expand(t.pos.x - halfX, t.pos.y - poleH, t.pos.z - halfZ);
+            expand(t.pos.x + halfX, t.pos.y, t.pos.z + halfZ);
+        }
+
+        for (const o of stage.objects) {
+            const table = tableById.get(o.tableId);
+            const baseX = table?.pos.x ?? 0;
+            const baseY = table?.pos.y ?? 0;
+            const baseZ = table?.pos.z ?? 0;
+            const hx = o.size.x * 0.5;
+            const hy = o.size.y * 0.5;
+            const hz = o.size.z * 0.5;
+            expand(baseX + o.pos.x - hx, baseY + o.pos.y - hy, baseZ + o.pos.z - hz);
+            expand(baseX + o.pos.x + hx, baseY + o.pos.y + hy, baseZ + o.pos.z + hz);
+        }
+
+        if (!isFinite(min.x)) {
+            return { min: new Vec3(-1, 0, -1), max: new Vec3(1, 2, 1) };
+        }
+        return { min, max };
     }
 
     private _loadConfig(levelIndex: number): Promise<LevelConfig> {
