@@ -20,7 +20,7 @@ export interface LevelLoadResult {
 export class LevelLoader {
     constructor(private _registry: ObjectTypeRegistry) {}
 
-    /** 加载指定关卡到 levelRoot，仅生成可视模型 */
+    /** 加载指定关卡到 levelRoot，仅生成可视模型，并整体贴地摆放 */
     async loadLevel(levelIndex: number, levelRoot: Node): Promise<LevelLoadResult> {
         levelRoot.removeAllChildren();
 
@@ -29,6 +29,11 @@ export class LevelLoader {
         if (!stage) {
             throw new Error(`关卡 ${levelIndex} 无 stages 数据`);
         }
+
+        // 配置里的坐标未必贴地，整体抬升/下压 levelRoot，让包围盒最低点落在 y=0 地面上
+        const rawBounds = this._computeBounds(stage);
+        const groundOffsetY = -rawBounds.min.y;
+        levelRoot.setPosition(0, groundOffsetY, 0);
 
         const tableMap = new Map<number, TableInfo>();
         for (const tableCfg of stage.tables) {
@@ -45,7 +50,11 @@ export class LevelLoader {
             await LevelObjectBuilder.build(objCfg, this._registry, table.node);
         }
 
-        return { config, bounds: this._computeBounds(stage) };
+        const bounds: LevelBounds = {
+            min: new Vec3(rawBounds.min.x, rawBounds.min.y + groundOffsetY, rawBounds.min.z),
+            max: new Vec3(rawBounds.max.x, rawBounds.max.y + groundOffsetY, rawBounds.max.z),
+        };
+        return { config, bounds };
     }
 
     /** 根据关卡原始配置估算世界包围盒，供相机取景使用 */
